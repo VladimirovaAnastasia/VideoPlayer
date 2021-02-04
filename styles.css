@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+}
+
+#player {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.js-video-container {
+    flex-grow: 1
+}
+
+.buttons {
+    display: flex;
+    background-color:black;
+}
+
+.button {
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.space {
+    flex-grow: 1;
+}
+
