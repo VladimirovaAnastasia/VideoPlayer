@@ -1,4 +1,4 @@
-.main {
+.content {
     display: flex;
     justify-content: center;
     margin-top: 50px
@@ -12,16 +12,16 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.js-video-container {
+.player__container {
     flex-grow: 1
 }
 
-.buttons {
+.player__buttons {
     display: flex;
     background-color:black;
 }
 
-.button {
+.player__button {
     border-style: none;
     background-color: transparent;
     color: white;
@@ -32,11 +32,11 @@
     cursor: pointer;
 }
 
-.button:focus {
+.player__button:focus {
     outline: none;
 }
 
-.space {
+.player__space {
     flex-grow: 1;
 }
 
