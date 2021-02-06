@@ -18,25 +18,21 @@
 
 .player__buttons {
     display: flex;
-    background-color:black;
+    justify-content: space-between;
+    background-color: black;
 }
 
 .player__button {
     border-style: none;
     background-color: transparent;
     color: white;
-    font-size: 20px;
-    line-height: 20px;
-    max-width: 30px;
-    padding: 7px;
+    font-size: 18px;
+    padding: 10px;
+    width: 35px;
     cursor: pointer;
 }
 
 .player__button:focus {
     outline: none;
-}
-
-.player__space {
-    flex-grow: 1;
 }
 
