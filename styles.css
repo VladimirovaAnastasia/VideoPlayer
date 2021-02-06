@@ -4,7 +4,7 @@
     margin-top: 50px
 }
 
-#player {
+.player {
     display: flex;
     flex-direction: column;
     width: 800px;
