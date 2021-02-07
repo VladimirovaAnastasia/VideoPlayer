@@ -43,3 +43,8 @@
     align-items: center;
     flex-grow: 1;
 }
+
+.player .viewing-panel .viewing-panel-digits {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
