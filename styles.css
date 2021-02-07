@@ -48,3 +48,29 @@
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.player .viewing-panel .viewing-progressbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    height: 5px;
+    border-radius: 5px;
+    background-color: grey;
+    margin: 0 10px;
+}
+
+.player .viewing-panel .viewing-progressbar .viewing-progressbar-slider {
+    background-color: #f8104d;
+    height: 5px;
+}
+
+.player .viewing-panel .viewing-progressbar .viewing-cursor {
+    width: 8px;
+    height: 8px;
+    margin-left: -8px;
+    border-radius: 50%;
+    background-color: #f8104d;
+    border: white 4px solid;
+    cursor: pointer;
+}
