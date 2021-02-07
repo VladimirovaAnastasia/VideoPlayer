@@ -22,7 +22,7 @@
     background-color: black;
 }
 
-.player .player__button {
+.player .player-button {
     border-style: none;
     background-color: transparent;
     color: white;
@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.player .player__button:focus {
+.player .player-button:focus {
     outline: none;
 }
 
@@ -74,4 +74,10 @@
     background-color: #f8104d;
     border: white 4px solid;
     cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.player .bottom-controls:hover .viewing-cursor {
+    opacity: 1;
 }
