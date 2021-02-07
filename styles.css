@@ -62,6 +62,7 @@
 
 .player .viewing-panel .viewing-progressbar .viewing-progressbar-slider {
     background-color: #f8104d;
+    border-radius: 50%;
     height: 5px;
 }
 
