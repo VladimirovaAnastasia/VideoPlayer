@@ -12,17 +12,17 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.player__container {
+.player .screen {
     flex-grow: 1
 }
 
-.player__buttons {
+.player .bottom-controls {
     display: flex;
     justify-content: space-between;
     background-color: black;
 }
 
-.player__button {
+.player .player__button {
     border-style: none;
     background-color: transparent;
     color: white;
@@ -32,7 +32,14 @@
     cursor: pointer;
 }
 
-.player__button:focus {
+.player .player__button:focus {
     outline: none;
 }
 
+.player .viewing-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
